@@ -32,9 +32,9 @@ if st.button("Add Schedule"):
     st.success("Schedule added to the database")
 
 
-st.header("Existing Schedule Entries")
-cursor.execute("SELECT * FROM schedule")
-schedule_data = cursor.fetchall()
+# st.header("Existing Schedule Entries")
+# cursor.execute("SELECT * FROM schedule")
+# schedule_data = cursor.fetchall()
 
 st.header("Existing Schedule Entries")
 cursor.execute("SELECT * FROM schedule")

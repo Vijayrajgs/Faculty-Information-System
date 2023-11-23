@@ -150,3 +150,9 @@ SELECT * FROM year_level;
 
 DESC  year_level_subject;
 SELECT * FROM year_level_subject;
+
+use miniProject;
+
+
+select * from schedule;
+desc schedule;
